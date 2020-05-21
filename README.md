@@ -3,6 +3,7 @@
 Web Programming with Python and JavaScript
 
 This my project 0 for CS0
+The project is a personal website showing all my CV , achievements and all concepts learned from the first 2 lectures.
 
 Page1   =>  Index,html
 
