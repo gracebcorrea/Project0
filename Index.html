@@ -3,18 +3,25 @@
 <head>
     <title> My Webpage Project 0   </title>
     <link rel="stylesheet" type="text/css" href="Mystylelist.css">
-    <meta name="Thats Me" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <!-- The first page - I want to show: colors, page alignment, font sizes, image,
  paragrath, links for pages
 -->
 <style>
-   body {background-color: #2eb8b8;}
+   body {background-color: #2eb8b8; font-color:#0f3d3d }
+   /* On screens that are 700px wide or less, the background color is blue */
+   @media screen and (max-width: 700px)
+         {
+           body {  background-color: blue; }
+         }
+
 
 </style>
 
  <body>
-  <p style="margin-left: 350px; font-size:60px; color:#0f3d3d; top: 50px;" >  Hi I´m Grace!  </p>
+  <p style="margin-left: 350px; font-size:60px; top: 50px;" >  Hi I´m Grace!  </p>
 
   <p> <img width="350"; height="450"; style="margin-left:350px";
            src="C:\Users\grace\Documents\GitHub\Project0\Images\gracecapapb.jpg">
