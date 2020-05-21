@@ -25,22 +25,22 @@
   #mySidenav a:hover { left: 0;  }
 
   #Home {
-    top: 50px;
+    top: 100px;
     background-color: #ebfafa;
   }
 
   #MyCV {
-    top: 150px;
+    top: 200px;
     background-color: #29a3a3;
   }
 
   #Projects {
-    top: 250px;
+    top: 300px;
     background-color: #1f7a7a;
   }
 
   #Contact {
-    top: 350px;
+    top: 400px;
     background-color: #196666
   }
 
