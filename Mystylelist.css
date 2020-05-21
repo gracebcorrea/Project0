@@ -1,7 +1,5 @@
 <style>
 
-
-
   /* This size have the same color */
    h1,h2  {   color:#0f3d3d; }
 
@@ -60,9 +58,10 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+</style>
 
-#Myfooter
-.footer {
+<style>
+#Myfooter .footer {
    position: fixed;
    left: 0;
    bottom: 0;
