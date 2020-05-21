@@ -1,8 +1,7 @@
 <!DOCTYPE CSS>
+
 <style>
 
-body { background-color: #2eb8b8;
-      }
 
 /* On screens that are 700px wide or less, the background color is blue */
 @media screen and (max-width: 700px) {
