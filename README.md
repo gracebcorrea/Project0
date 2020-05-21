@@ -15,4 +15,4 @@ List, table, bookmark, bootstrap, top button, style file, class, relative footer
 
 Page3 => Project0-2.Html
 
-Bootstrap, .class selector
+Bootstrap, .class selector - on footer
