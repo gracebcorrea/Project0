@@ -1,7 +1,11 @@
 
-
 body {
-  background-color: #2eb8b8;;
-  color:  #0f3d3d;
+  font-family: Verdana;
   font-size: 18px;
+  color: red;
+}
+
+#container {
+  width: 680px;
+  border: 1px blue double;
 }
