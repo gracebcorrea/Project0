@@ -1,4 +1,9 @@
 <style>
+   body {
+     background-color: #2eb8b8;;
+     color:  #0f3d3d;
+      }
+
 
   /* This size have the same color */
    h1,h2  {   color:#0f3d3d; }
@@ -59,9 +64,3 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 </style>
-
-body {
-  background-color: #2eb8b8;;
-  color:  #0f3d3d;
-  font-size: 18px;
-}
