@@ -1,21 +1,14 @@
+$myFont: Verdana;
+$myColor: red;
+$myFontSize: 18px;
+$myWidth: 680px;
 
-
-
-.button-basic  {
-  border: none;
-  padding: 15px 30px;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
+body {
+  font-family: $myFont;
+  font-size: $myFontSize;
+  color: $myColor;
 }
 
-.button-report  {
-  @extend .button-basic;
-  background-color: red;
-}
-
-.button-submit  {
-  @extend .button-basic;
-  background-color: green;
-  color: white;
+#container {
+  width: $myWidth;
 }
