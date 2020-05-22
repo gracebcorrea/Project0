@@ -17,15 +17,21 @@ body {
 
 /*-- test on contact page  --*/
 
-body {
-  font-family: Verdana;
-  font-size: 20px;
-  color: #0f3d3d; ;
-  background-color: #2eb8b8;
-  margin-left:200px;
+.button-basic  {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-#container {
-  width: 680px;
-  border: 1px blue double;
+.button-report  {
+  @extend .button-basic;
+  background-color: red;
+}
+
+.button-submit  {
+  @extend .button-basic;
+  background-color: green;
+  color: white;
 }
