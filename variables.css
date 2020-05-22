@@ -1,9 +1,12 @@
+
+/*-- test on contact page  --*/
+
 body {
   font-family: Verdana;
   font-size: 20px;
   color: #0f3d3d; ;
   background-color: #2eb8b8;
-  margin-left:220px;
+  margin-left:200px;
 }
 
 #container {
