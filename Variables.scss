@@ -1,14 +1,36 @@
 <!DOCTYPE CSS>
-
+<style>
 
 /* Define standard variables and values for website */
-$bgcolor: lightblue;
-$textcolor: darkblue;
-$fontsize: 18px;
+$bgcolor: #2eb8b8;
+$textcolor: #0f3d3d;
+$fontsize:20px;
 
 /* Use the variables */
 body {
   background-color: $bgcolor;
   color: $textcolor;
   font-size: $fontsize;
+}
+
+</Style>
+
+
+.button-basic  {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-report  {
+  @extend .button-basic;
+  background-color: red;
+}
+
+.button-submit  {
+  @extend .button-basic;
+  background-color: green;
+  color: white;
 }
