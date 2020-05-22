@@ -1,5 +1,23 @@
+<style>
+
+#mybody body {
+               background-color: #2eb8b8;
+               color:#0f3d3d;
+               }
+
+/* On screens that are 700px wide or less, the background color is blue */
+@media screen and (max-width: 700px) {
+        body {
+                 background-color: blue;
+                 color: white;
+              }
+            }
+</style>
 
 <style>
+   h1,h2  {   color:#0f3d3d; }
+
+
 
 #mySidenav a {
     position: absolute;
@@ -16,22 +34,22 @@
   #mySidenav a:hover { left: 0;  }
 
   #Home {
-    top: 100px;
+    top: 50px;
     background-color: #ebfafa;
   }
 
   #MyCV {
-    top: 200px;
+    top: 150px;
     background-color: #29a3a3;
   }
 
   #Projects {
-    top: 300px;
+    top: 250px;
     background-color: #1f7a7a;
   }
 
   #Contact {
-    top: 400px;
+    top: 350px;
     background-color: #196666
   }
 
@@ -51,4 +69,5 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
 </style>
