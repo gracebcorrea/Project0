@@ -1,16 +1,7 @@
-<style>
-
-#mybody body {
-               background-color: #2eb8b8;
-               color:#0f3d3d;
-               }
-h1,h2  {   color:#0f3d3d; }
-
-
-
-</style>
 
 <style>
+    h1,h2  {   color:#0f3d3d; }
+
     #mySidenav a {
        position: absolute;
        left: -80px;
