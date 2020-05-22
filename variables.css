@@ -1,5 +1,5 @@
 
-/*-- test on contact page  --*/
+/*-- test just for contact page  --*/
 
 body {
   font-family: Verdana;
@@ -10,6 +10,6 @@ body {
 }
 
 #container {
-  width: 680px;
+  width: 880px;
   border: 1px blue double;
 }
