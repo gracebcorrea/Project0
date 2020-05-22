@@ -11,8 +11,8 @@ Colors, Change color, Page Aligmnet, Font Sizes, Paragrath, Hiperlink, Images, M
 
 Page2  => Project0-1.Html
 
-List, table, bookmark, bootstrap, top button, style file, class, relative footer, color selection
+List, table, bookmark, bootstrap, top button, style file, class, relative footer, color selection, section
 
 Page3 => Project0-2.Html
 
-Bootstrap, .class selector - on footer
+Bootstrap, components, grids, .class selector - on footer,
