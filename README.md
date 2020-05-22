@@ -19,4 +19,4 @@ Bootstrap, components, grids, .class selector - on footer,
 
 Page4 =>
 
-Forms, SASS
+Forms, SASS, alerts
