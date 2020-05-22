@@ -1,10 +1,13 @@
-   
+
 <style>
 
 body { background-color: #2eb8b8; color:  #0f3d3d;   }
 /* This size have the same color */
 h1,h2  {   color:#0f3d3d; }
 
+</style>
+
+<style>
 
 #mySidenav a {
     position: absolute;
