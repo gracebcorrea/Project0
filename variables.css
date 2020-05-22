@@ -1,1 +1,11 @@
+body {
+  font-family: Verdana;
+  font-size: 18px;
+  color: red;
+  background-color: #2eb8b8;
+}
 
+#container {
+  width: 680px;
+  border: 1px blue double;
+}
