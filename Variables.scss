@@ -1,7 +1,7 @@
 $myFont: Verdana;
 $myColor: red;
 $myFontSize: 18px;
-$myWidth: 680px;
+$myWidth: 1000px;
 
 body {
   font-family: $myFont;
@@ -11,4 +11,21 @@ body {
 
 #container {
   width: $myWidth;
+}
+
+
+
+/*-- test on contact page  --*/
+
+body {
+  font-family: Verdana;
+  font-size: 20px;
+  color: #0f3d3d; ;
+  background-color: #2eb8b8;
+  margin-left:200px;
+}
+
+#container {
+  width: 680px;
+  border: 1px blue double;
 }
