@@ -1,12 +1,14 @@
 $myFont: Verdana;
 $myColor: #2eb8b8;
-$myFontSize: 18px;
+$myFontSize: 20px;
 $myWidth: 1000px;
+$myborder: #d1e0e0;
 
 body {
   font-family: $myFont;
   font-size: $myFontSize;
   color: $myColor;
+  border:#d1e0e0;
 }
 
 #container {
