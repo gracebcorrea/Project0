@@ -1,10 +1,11 @@
-
 /*-- test just for contact page  --*/
 
 body {
   font-family: Verdana;
   font-size: 20px;
-  color: #0f3d3d; ;
+  color: #0f3d3d;
+  width:1000px;
+  border: white;
   background-color: #2eb8b8;
   margin-left:200px;
 }
