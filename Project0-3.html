@@ -45,7 +45,7 @@
           <label for="fname">  First name:</label>  <input type="text" id="fname" name="fname" value="John">
           <label for="lname">  Last name:</label>   <input type="text" id="lname" name="lname" value="Doe"><br>
           <label for="email">  E-mail:   </label>   <input type="text" id="email" name="email" value="johnDoe@mmmmm.com"><br>
-          <label for="message"> Message:</label>  <input type="text" id="message" name="message" value="message"><br>
+          <label for="message"> Message:</label>    <input type="text" id="message" name="message" value="message"><br>
 
           <input type="button" value="Submit"> If you click the "Submit" button, the form-data will be sent to message .</p>
           <input type="button" value="Cancel"> If you click the "Cancel" button, the form-data will be sent to message .</p>
@@ -54,19 +54,38 @@
 
 
 
-<button class="button-basic button-report">Cancel</button>
 
 <div class="alert alert-warning" role="alert">
   A simple warning alert—check it out!
 </div>
 
-<button class="button-basic button-submit">Submit</button>
 
 <div class="alert alert-success" role="alert">
      A simple success alert—check it out!
 </div>
 
+<button onclick="MessageSubmit()" id="mysubmit" title="Submit">Top</button>
+<script>
+//Get the button
+var mysubmit = document.getElementById("myBtn");
 
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
 
 
