@@ -1,14 +1,22 @@
+/*-- test just for contact page  --*/
 $myFont: Verdana;
-$myColor: #2eb8b8;
 $myFontSize: 20px;
+$myColor: #0f3d3d;
 $myWidth: 1000px;
-$myborder: #d1e0e0;
+$myborder: white;
+$myBGColor:#2eb8b8;
+$mymarginL:200px;
 
 body {
   font-family: $myFont;
   font-size: $myFontSize;
   color: $myColor;
-  border:#d1e0e0;
+  width:$myWidth;
+  border:$myborder;
+  background-color:$myBGColor;
+  margin-left:$mymarginL;
+
+  
 }
 
 #container {
