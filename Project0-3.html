@@ -76,7 +76,9 @@
 
 <script>
 function mySend() {
-  document.getElementById("Send").innerHTML = "Hello Send";
+  document.getElementById("Send").innerHTML = <div class="alert alert-warning" role="alert">
+    A simple warning alert—check it out!
+  </div>} ;
 }
 
 function myCancel() {
@@ -85,14 +87,19 @@ function myCancel() {
 
 </script>
 
-<div class="alert alert-warning" role="alert">
-  A simple warning alert—check it out!
-</div>
 
 
-<div class="alert alert-success" role="alert">
-     A simple success alert—check it out!
-</div>
+
+
+
+
+
+
+
+<div class="alert alert-warning" role="alert">   A simple warning alert—check it out! </div>
+
+
+<div class="alert alert-success" role="alert">     A simple success alert—check it out! </div>
 
 <nav>
   <ul>
