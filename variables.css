@@ -11,6 +11,7 @@ body {
 
 #container {
   width: 1000px;
+  border-style: double;
 }
 
 /*-- test on contact page  --*/
