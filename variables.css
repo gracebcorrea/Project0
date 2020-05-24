@@ -15,22 +15,18 @@ body {
   border-color: #d1e0e0;
 }
 
-/*-- test on contact page  --*/
-.button-basic, .button-submit, .button-report {
-  border: none;
-  padding: 15px 30px;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-
-.button-report {
-  background-color: red;
+nav li {
+  display: inline-block;
 }
-
-.button-submit {
-  background-color: green;
-  color: white;
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=variables.css.map */
