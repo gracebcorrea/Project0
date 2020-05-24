@@ -19,4 +19,4 @@ Bootstrap, components, grids, .class selector - on footer,
 
 Page4 =>
 
-Forms, SASS, alerts
+Forms, alerts, SASS,  SCSS variable, SCSS nesting,SCSS inheritance
