@@ -70,8 +70,7 @@
         <br>  <input type="button"  class="button-Send"    value="Send  " onclick="mySend()" id= "Send" >
               <input type="button"  class="button-Cancel"  value="Cancel" onclick="myCancel()" id= "Send"> <br>
 
-              <p  id= "MSGSend" > "Thank You! we will be returning soon." </p>
-              <p  id= "MSGCancel" > "Sorry! I hope You Try again Later" </p>
+                <p  id= "MSGSend" > "Thank You! we will be returning soon." </p>
 
      </form>
 </div>
@@ -81,9 +80,12 @@
 <script>
 function mySend()
   {
+
     var x = document.getElementById("Send").innerText ;
 
     document.getElementById("MSGSend").innerHTML = x;
+
+
 
   }
 
@@ -97,6 +99,9 @@ function myCancel() {
   Var y = document.getElementById("Cancel").innertext;
 
   document.getElementById("MSGCancel").innerHTML = Y;
+
+  <p  id= "MSGCancel" > "Sorry! I hope You Try again Later" </p>
+
 }
 
 </script>
