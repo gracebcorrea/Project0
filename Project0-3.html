@@ -67,13 +67,23 @@
              <label for="WhatsApp"> WhatsApp :  </label>     <input type="text" id="WhatsApp" name="WhatsApp" Value="+55 (__) 99999-9999">
         <br> <label for="message"> Message   :  </label><br> <input type="text1" id="message" name="message" value="message" ><br>
 
-        <br>  <input type="button"  class="button-submit"  value="Submit">
-              <input type="button"  class="button-Cancel"  value="Cancel" > <br>
+        <br>  <input type="button"  class="button-Send"    value="Send  "  onclick="mySend()">
+              <input type="button"  class="button-Cancel"  value="Cancel"  onclick="myCancel()"> <br>
      </form>
 </div>
 
 
 
+<script>
+function mySend() {
+  document.getElementById("Send").innerHTML = "Hello Send";
+}
+
+function myCancel() {
+  document.getElementById("Cancel").innerHTML = "Hello Cancel";
+}
+
+</script>
 
 <div class="alert alert-warning" role="alert">
   A simple warning alert—check it out!
