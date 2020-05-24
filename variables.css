@@ -32,7 +32,7 @@ nav a {
 }
 
 /*-- SCSS inheritance --*/
-.button-basic, .button-submit, .button-Cancel {
+.button-basic, .button-Send, .button-Cancel {
   border: none;
   padding: 15px 30px;
   text-align: center;
@@ -45,7 +45,7 @@ nav a {
   color: white;
 }
 
-.button-submit {
+.button-Send {
   background-color: green;
   color: white;
 }
