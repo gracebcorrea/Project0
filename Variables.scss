@@ -6,6 +6,7 @@ $myWidth: 1000px;
 $myborder: #d1e0e0;
 $myBGColor:#2eb8b8;
 $mymarginL:200px;
+$mycontainerborder:double;
 
 body {
   font-family: $myFont;
@@ -15,11 +16,11 @@ body {
   border:$myborder;
   background-color:$myBGColor;
   margin-left:$mymarginL;
-
 }
 
 #container {
   width: $myWidth;
+  border-style: $mycontainerborder:;
 }
 
 
