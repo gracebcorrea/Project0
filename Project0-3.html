@@ -67,8 +67,11 @@
              <label for="WhatsApp"> WhatsApp :  </label>     <input type="text" id="WhatsApp" name="WhatsApp" Value="+55 (__) 99999-9999">
         <br> <label for="message"> Message   :  </label><br> <input type="text1" id="message" name="message" value="message" ><br>
 
-        <br>  <input type="button"  class="button-Send"    value="Send  " onclick="mySend()"  id="Send">
-              <input type="button"  class="button-Cancel"  value="Cancel" onclick="myCancel()" id="Cancel" > <br>
+        <br>  <input type="button"  class="button-Send"    value="Send  " onclick="mySend()" id= "Send" >
+              <p  id= "MSGSend" > </p>
+              <input type="button"  class="button-Cancel"  value="Cancel" onclick="myCancel()" id= "Send"> <br>
+              <p  id= "MSGCancel" > </p>
+
      </form>
 </div>
 
@@ -77,7 +80,12 @@
 <script>
 function mySend()
   {
-   document.getElementById("Send").innerHTML = "Thank You! we will be returning soon.">
+    var x = document.getElementById("Send").innerText ;
+            document.getElementById("MSGSend").innerHTML = x;
+
+
+
+   document.getElementById("Send").innerText = "Thank You! we will be returning soon.">
   }
 
 </script>
