@@ -8,6 +8,7 @@ $myBGColor:#2eb8b8;
 $mymarginL:200px;
 $mycontborder:double;
 $mycontborderColor:#d1e0e0;
+$mycontmarginleft:20px;
 
 body {
   font-family: $myFont;
@@ -23,6 +24,7 @@ body {
   width: $myWidth;
   border-style: $mycontborder;
   border-color: $mycontborderColor;
+  margin-left: $mycontmarginleft;
 }
 
 
