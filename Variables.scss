@@ -1,4 +1,6 @@
 /*-- test just for contact page  --*/
+
+/*--SCSS variable--*/
 $myFont: Verdana;
 $myFontSize: 20px;
 $myColor: #0f3d3d;
@@ -28,6 +30,8 @@ body {
 
 }
 
+
+/*--  SCSS nesting --*/
 nav {
   ul {
     margin: 0;
@@ -42,4 +46,25 @@ nav {
     padding: 6px 12px;
     text-decoration: none;
   }
+}
+
+
+/*-- SCSS inheritance --*/
+.button-basic  {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-Cancel  {
+  @extend .button-basic;
+  background-color: red;
+}
+
+.button-submit  {
+  @extend .button-basic;
+  background-color: green;
+  color: white;
 }
