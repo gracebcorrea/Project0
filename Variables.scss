@@ -9,6 +9,8 @@ $mymarginL:200px;
 $mycontborder:double;
 $mycontborderColor:#d1e0e0;
 
+
+
 body {
   font-family: $myFont;
   font-size: $myFontSize;
@@ -26,25 +28,18 @@ body {
 
 }
 
-
-
-/*-- test on contact page  --*/
-
-.button-basic  {
-  border: none;
-  padding: 15px 30px;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.button-report  {
-  @extend .button-basic;
-  background-color: red;
-}
-
-.button-submit  {
-  @extend .button-basic;
-  background-color: green;
-  color: white;
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
 }
