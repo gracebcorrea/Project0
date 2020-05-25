@@ -64,7 +64,7 @@
              <label for="email">   E-mail    :  </label> <input type="text" id="email"    name="email" value="johnDoe@mmmmm.com">
         <br> <label for="message"> Message   :  </label> <input type="text1" id="message" name="message" value="Please write your message" ><br>
         <br >
-            <input type="button" class="button-Send"   id="Send"   value="Send"   onclick="javascript:alert('Thank You! we will be returning soon.')">
+            <input type="button" class="button-Send"   id="Send"   value="Send"   onclick="javascript:alert('Thank You! We will return soon.')">
             <input type="button" class="button-Cancel" id="Cancel" value="Cancel" onclick="MyCAncel()">
          </br>
       </form>
@@ -74,9 +74,14 @@
 
 
       <script>
+          function MySend()
+           {
+           alert("Thank You! We will return soon.");
+            }
+
+
           function MyCAncel()
           {
-
            alert("Maybe next time I can help...");
            }
      </script>
