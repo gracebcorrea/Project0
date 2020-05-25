@@ -51,11 +51,12 @@ nav {
 
 /*-- SCSS inheritance --*/
 .button-basic  {
-  border: none;
+  border: rounded;
   padding: 15px 30px;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
+
 }
 
 .button-Send  {
