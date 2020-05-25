@@ -58,15 +58,16 @@ nav {
   cursor: pointer;
 }
 
-.button-Cancel  {
-  @extend .button-basic;
-  background-color: red;
-  color: white;
-  
-}
-
 .button-Send  {
   @extend .button-basic;
   background-color: green;
   color: white;
+  margin-left:250px;
+}
+
+.button-Cancel  {
+  @extend .button-basic;
+  background-color: red;
+  color: white;
+  margin-left:500px;
 }
