@@ -32,7 +32,7 @@ nav a {
 }
 
 /*-- SCSS inheritance --*/
-.button-basic, .button-Send, .button-Cancel {
+.button-basic, .button-Cancel, .button-Send {
   border: none;
   padding: 15px 30px;
   text-align: center;
@@ -40,14 +40,16 @@ nav a {
   cursor: pointer;
 }
 
-.button-Cancel {
-  background-color: red;
-  color: white;
-}
-
 .button-Send {
   background-color: green;
   color: white;
+  margin-left: 250px;
+}
+
+.button-Cancel {
+  background-color: red;
+  color: white;
+  margin-left: 500px;
 }
 
 /*# sourceMappingURL=variables.css.map */
