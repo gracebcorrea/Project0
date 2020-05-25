@@ -70,11 +70,22 @@
       </form>
  </div>
   <p>  </p>
-  <p style= "margin-left:400px">
-      <input type="button" class="button-Send"    value="Send  " onclick="mySend()" id= "Send" >
+  <p ><style= "margin-left:300px" input type="button" class="button-Send"  value="Send  " onclick="mySend()" id= "Send" >
+      <script>
+         function mySend()
+         {
+          document.getElementById("Send").innerHTML = "Thank You! we will be returning soon."
+         }
+      </script>
 
-      <input type="button"  class="button-Cancel"  value="Cancel" onclick="myCancel()" id="Cancel"> </p>
+      <style= "margin-left:500px" input type="button"  class="button-Cancel"  value="Cancel" onclick="myCancel()" id="Cancel"> </p>
+      <script>
+         function mySend()
+         {
 
+          document.getElementById("Send").innerHTML = "Thank You! we will be returning soon."
+         }
+      </script>
 
 
 
@@ -87,6 +98,10 @@
 
     document.getElementById("Send").innerHTML = "Thank You! we will be returning soon."
    }
+</script>
+
+<script>
+
    function myCancel()
    {
     document.getElementById("Cancel").innerHTML = "You can try again anytime!"
