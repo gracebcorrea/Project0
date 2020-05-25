@@ -43,13 +43,13 @@ nav a {
 .button-Send {
   background-color: green;
   color: white;
-  margin-left: 250px;
+  margin-left: 150px;
 }
 
 .button-Cancel {
   background-color: red;
   color: white;
-  margin-left: 500px;
+  margin-left: 450px;
 }
 
 /*# sourceMappingURL=variables.css.map */
