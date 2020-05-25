@@ -34,11 +34,10 @@ nav a {
 /*-- SCSS inheritance --*/
 .button-basic, .button-Cancel, .button-Send {
   border: rounded;
-  padding: 15px 30px;
+  padding: 15px 35px;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
-  line-height: 3;
 }
 
 .button-Send {
